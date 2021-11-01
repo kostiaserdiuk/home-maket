@@ -1,0 +1,85 @@
+body{
+    font-family: "Montserrat-Light";
+}
+
+#main{
+    max-width: 1635px;
+    margin: 0px auto;
+}
+
+#home-section-header{
+    display: flex;
+    height: 23px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    padding-top: 45px;
+    align-items: center;
+}
+#home-section-header-left-block{
+    margin-right: 601px;
+    font-weight: bold;
+    font-size: 23px;
+}
+#home-section-header-right-block{
+    display: flex;
+    width: 540px;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+#home-section{
+ background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(pictures/Layer\ 10@1X.png);
+ height: 768px;
+}
+
+#button{
+    width: 181px;
+    height: 51px;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 2px;
+    font-weight: bold;
+
+}
+
+a{
+    text-decoration: none;
+}
+#home-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 260px
+    
+}
+
+#home-section-content-text{
+    width: 581px;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin-bottom: 48px;
+    color: rgb(255, 255, 255);
+
+}
+
+h1{
+    font-size:40px;
+    margin-bottom: 16px;
+}
+p{
+    margin-top: 0px;
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url(fonts/Montserrat-Light.ttf);
+}
