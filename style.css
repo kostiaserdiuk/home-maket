@@ -1,10 +1,13 @@
 body{
     font-family: "Montserrat-Light";
+    background-color: rgb(110, 110, 110);
+    
 }
 
 #main{
     max-width: 1635px;
     margin: 0px auto;
+    background-color: white;
 }
 
 #home-section-header{
@@ -30,7 +33,7 @@ body{
 
 #home-section{
  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(pictures/Layer\ 10@1X.png);
- height: 768px;
+ height: 770px;
 }
 
 #button{
@@ -75,9 +78,167 @@ h1{
     font-size:40px;
     margin-bottom: 16px;
 }
-p{
+#home-section-content-text-inside{
     margin-top: 0px;
 }
+
+#services-section{
+    height: 379px;
+    width: 1125px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 99px;
+    margin-bottom: 91px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+#title-services-section{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+hr{
+    width: 50px;
+    height: 2px;
+    border: none;
+    background-color: black;
+    color: black;
+    margin-top: 28px;
+}
+
+#title-text-services-section{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 28px;
+    
+}
+#services-section-content{
+  display: flex;
+  justify-content: space-between;
+  width: 1125px;
+}
+
+.services-section-content-blocks{
+    width: 345px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+i{
+  font-size: 50px;
+}
+
+.icon{
+    width: 91px;
+    height: 91px;
+    background-color: brown;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 50%;
+    color: aliceblue;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+.services-section-content-blocks-title{
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.services-section-content-blocks-text{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+#footer{
+    height: 308px;
+    background-color: #C0301C;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+#footer-text{
+    color: #FFFFFF;
+}
+
+.fab.fa-twitter{
+    font-size: 17px;
+    
+}
+
+#footer-icons{
+    display: flex;
+    flex-direction: row;
+    width: 183px;
+    justify-content: space-between;
+}
+.footer-icons-inside{
+    border: 1px solid white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    color: aliceblue;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+
+}
+
+#home-section-header-right-block-text{
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+#button-home{
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+.footer-icons-inside:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+#button-home:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+#home-section-header-right-block-text:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.icon:hover{
+    color: #C0301C;
+    background-color: rgb(255, 255, 255);
+}
+
 
 @font-face {
     font-family: "Montserrat-Light";
